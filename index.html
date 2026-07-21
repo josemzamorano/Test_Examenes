@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Exámenes de Informática</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,Arial,sans-serif;
+}
+
+body{
+    background:#eef3f8;
+    color:#223;
+}
+
+header{
+    background:linear-gradient(135deg,#003366,#0b4ea2);
+    color:white;
+    padding:45px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:2.6em;
+    margin-bottom:10px;
+}
+
+header p{
+    opacity:.9;
+    font-size:1.1em;
+}
+
+main{
+    max-width:1100px;
+    margin:auto;
+    padding:40px 20px;
+}
+
+h2{
+    color:#003366;
+    margin-bottom:25px;
+}
+
+.grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+
+}
+
+.card{
+
+    background:white;
+    border-radius:18px;
+    padding:25px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.30s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 12px 35px rgba(0,0,0,.15);
+
+}
+
+.card h3{
+
+    color:#0b4ea2;
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    line-height:1.6;
+
+    margin-bottom:20px;
+
+}
+
+.boton{
+
+    display:inline-block;
+
+    background:#0b4ea2;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    transition:.30s;
+
+}
+
+.boton:hover{
+
+    background:#003366;
+
+}
+
+footer{
+
+    margin-top:60px;
+
+    padding:25px;
+
+    text-align:center;
+
+    color:#777;
+
+    font-size:.9em;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🎓 Exámenes de Ingeniería Informática</h1>
+
+<p>
+Colección de exámenes tipo test para practicar y preparar las asignaturas del Grado.
+</p>
+
+</header>
+
+<main>
+
+<h2>📚 Asignaturas</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>💻 Desarrollo y Arquitectura de Software (DYASO)</h3>
+
+<p>
+
+Tests de preparación de la asignatura.
+Incluye preguntas similares a las de exámenes oficiales y ejercicios de autoevaluación.
+
+</p>
+
+<a class="boton" href="test_DYASO.html">
+
+📝 Realizar examen
+
+</a>
+
+</div>
+
+<!-- NUEVAS TARJETAS -->
+
+<!--
+
+<div class="card">
+
+<h3>☕ Programación Java</h3>
+
+<p>
+
+Exámenes tipo test sobre Java.
+
+</p>
+
+<a class="boton" href="test_java.html">
+
+📝 Realizar examen
+
+</a>
+
+</div>
+
+-->
+
+</div>
+
+</main>
+
+<footer>
+
+© 2026 · Banco de exámenes · Ingeniería Informática
+
+</footer>
+
+</body>
+</html>
